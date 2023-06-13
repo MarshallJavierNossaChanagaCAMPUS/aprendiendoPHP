@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left, rgb(7, 85, 85), rgb(0, 255, 234));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar div{
+    width: 50%;
+    height: 100%;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logoHeader{
+    height: 80%;
+    margin: 20px;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    margin: 0 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}

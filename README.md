@@ -2,7 +2,7 @@
 
 PHP es un lenguaje de programación de código abierto que corre del lado del servidor y se puede incrustar en documentos HTML. A pesar de que PHP es principalmente orientado al servidor se puede implementar en diferentes entornos de ejecución.
 
- Para que PHP se pueda usar es necesario tener un servidor local (XAMPP en el caso de windows).
+Para que PHP se pueda usar es necesario tener un servidor local (XAMPP en el caso de windows).
 
 ## Introducción
 
@@ -16,7 +16,7 @@ Usualmente todos los archivos del script se guardan en una carpeta principal, es
 
 "php -S localhost:3000"
 
-Haciendo esto podemos verificarlo abriendo localhost en el puerto 300 desde el navegador
+Haciendo esto podemos verificarlo abriendo localhost en el puerto 3000 desde el navegador
 
 ## Funciones de salida
 
