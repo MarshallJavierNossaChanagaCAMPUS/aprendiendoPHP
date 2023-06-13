@@ -289,4 +289,38 @@ Este es el equivalente a npm para node JS.
 
 # PHP AVANZADO
 
+## **MySQL + PHP (Bases de datos)**
+
+### **¿Qué son?**
+
+Las bases de datos son lugares donde podemos almacenar información, pero la base de datos no solo se encarga de esto, también permite relacionar los datos entre si en una unidad lógica, normalmente , una base de datos está controlada por un sistema de gestión de bases de datos.
+
+### **¿Qué es el lenguaje de consulta estructurada?**
+
+El lenguaje de consulta estructurada o "SQL" es un lenguaje que utilizan casi todas las bases de datos relacionales para consulta, manipular y definir los datos, además de para proporcionar control de acceso.
+
+### **PHPMyAdmin**
+
+Es un portal web de administración de bases de datos MySQL y MariaDB.
+
+## Ejercicio #1 (Crear una base de datos sencilla con PHPMyAdmin) Checked
+
+``CREATE TABLE `eventos`.`invitado` ( `id` INT(7) NOT NULL AUTO_INCREMENT COMMENT 'Id del usuario' , `nombre` VARCHAR(30) NOT NULL , `apellido` VARCHAR(50) NOT NULL , `fecha` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;``
+
+### **Insertar datos en una tabla**
+
+Es importante que los valores que se insertan estén en comillas simples.
+
+``INSERT INTO `invitado` (`id`, `nombre`, `apellido`, `fecha`) VALUES (NULL, 'Marshall Gamer', 'Donpiola Corp', '2023-06-13')``
+
+### **Mostrar datos de una tabla**
+
+Al seleccionar todo muestra todos los datos de una tabla
+
+``SELECT * FROM 'invitado'``
+
+### **Actualizar datos de una tabla**
+
+### **Borrar registros y tablas**
+
 ## Integración de bases de datos relacionales (Mysql)
