@@ -321,6 +321,14 @@ Al seleccionar todo muestra todos los datos de una tabla
 
 ### **Actualizar datos de una tabla**
 
+Aqui actualizamos los datos del invitado con el id numero 1
+
+``UPDATE 'invitado' SET `id`='1', `nombre`='Javier NoGamer', `apellido`='Donpiolita', `fecha`='2023-06-14'``
+
 ### **Borrar registros y tablas**
 
-## Integración de bases de datos relacionales (Mysql)
+Borramos el usuario de id numero 0
+
+``DELETE FROM `invitado` WHERE 0``
+
+## Integración de bases de datos relacionales (MySQL)
